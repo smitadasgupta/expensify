@@ -2,7 +2,7 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Smita Dasgupta",
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
@@ -23,6 +23,7 @@
     "css-loader": "0.28.4",
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
+    "firebase": "^4.8.2",
     "moment": "^2.20.1",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
