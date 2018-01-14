@@ -1,6 +1,7 @@
 .expenselist-section {
-    width: 80rem;
+    max-width: 80rem;
     margin: 0 auto;
+    padding: 0 2rem;
 
     &__list-item {
         padding: 1rem 0;
