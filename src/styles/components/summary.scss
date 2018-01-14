@@ -1,0 +1,31 @@
+.summary-section {
+    
+    &__info {
+        font-size: 3rem;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    &__action {
+        margin-top: 3rem;
+    }
+
+    &__btn {
+        display: block;
+        max-width: 15rem;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: $white;
+        background-color: $green;
+        border: none;
+        border-radius: 5px;
+        &:hover, &:visited {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}

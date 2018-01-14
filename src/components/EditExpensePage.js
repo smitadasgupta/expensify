@@ -14,13 +14,14 @@ export class EditExpensePage extends React.Component {
   };
   render() {
     return (
-      <div>
+      <section classname="editexpense-section">
+        <h1 className="main-header">Edit Expense</h1>
         <ExpenseForm
           expense={this.props.expense}
           onSubmit={this.onSubmit}
         />
-        <button onClick={this.onRemove}>Remove</button>
-      </div>
+        <button onClick={this.onRemove} className="editexpense-section__btn btn">Remove</button>
+      </section>
     );
   }
 };

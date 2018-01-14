@@ -1,0 +1,28 @@
+.addexpense {   
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 6rem;
+        max-width: 80rem;
+        margin: 0 auto;
+        > * {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__error {
+        text-align: center;
+        color: $red;
+        padding: 0.5rem;
+    }
+
+}
+
+.editexpense-section {
+    &__btn {
+        background-color: $red;
+        min-width: 14rem;
+        margin-top: -4rem;
+    }
+}
+

@@ -1,0 +1,30 @@
+.filters-section {
+    padding: 6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .filter-item {
+        margin-right: 1.5rem;
+    }
+
+    &__search-input, &__select, &__date-picker {
+        margin-right: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .DateRangePickerInput {
+        border-radius: 5px;
+        border: 1px solid $grey;
+    }
+
+    /* 3rd party style overwrite */
+    .DateInput_input {
+        color: $black-light;
+    }
+
+
+}
+

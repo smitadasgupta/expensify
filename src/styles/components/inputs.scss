@@ -1,0 +1,10 @@
+.text-input, .select-inputs, .text-area {
+    padding: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid $grey;
+    color: $black-light;
+}
+
+.text-area {
+    height: 10rem;
+}
